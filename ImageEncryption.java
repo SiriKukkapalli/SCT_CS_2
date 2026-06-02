@@ -76,7 +76,7 @@ public class ImageEncryption {
 
             ImageIO.write(decrypted, "png", new File("decrypted.png"));
 
-            // ✅ THIS LINE IS REQUIRED
+           
             System.out.println("Decrypted image saved!");
 
         } catch (Exception e) {
